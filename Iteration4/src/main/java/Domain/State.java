@@ -1,0 +1,9 @@
+package Domain;
+
+public enum State {
+	SICK,
+	HEALTHY,
+	SICKINQUARANTINE,
+	HEALTHYINQUARANTINE,
+	HOSPITALIZED
+}
