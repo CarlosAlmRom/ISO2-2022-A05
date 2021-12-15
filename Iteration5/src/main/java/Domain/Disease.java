@@ -1,71 +1,104 @@
 package Domain;
-
+/**
+ * 
+ * @author Daniel Max Samson Samson and Antonio Mateo Frances
+ * @version 0.0.0
+ *
+ */
 public class Disease {
 
 	private String DiseaseName;
-	private String[] sympthoms;
+	private String[] symptoms;
 	private String[] seasonality;
 	private String[] medicines;
 	private boolean possibleConfinement;
 
-	/*Constructor 1*/
-	public Disease() {
 	
-	}
-
-	/*Constructor 2*/
-	public Disease(String DiseaseName) {
-		this.DiseaseName = DiseaseName;
-	}
-
-	//Gets the name of disease
 	public String getDiseaseName() {
 		return DiseaseName;
 	}
 
-	//Sets the name of the disease
-	public void setDiseaseName(String DiseaseName) {
-		this.DiseaseName = DiseaseName;
+
+	/**
+	 * 
+	 * @param diseaseName
+	 */
+	public void setDiseaseName(String diseaseName) {
+		DiseaseName = diseaseName;
 	}
 
-	//Gets the sympthoms of disease
-	public String[] getSympthoms() {
-		return this.sympthoms;
+
+	/**
+	 * 
+	 * @return
+	 */
+	public String[] getSymptoms() {
+		return symptoms;
 	}
 
-	//Sets the sympthoms disease can have
-	public void setSympthoms(String[] sympthoms) {
-		this.sympthoms = sympthoms;
+
+	/**
+	 * 
+	 * @param symptoms
+	 */
+	public void setSymptoms(String[] symptoms) {
+		this.symptoms = symptoms;
 	}
 
-	//Gets when is frequent to have the disease
+
+	/**
+	 * 
+	 * @return
+	 */
 	public String[] getSeasonality() {
-		return this.seasonality;
+		return seasonality;
 	}
 
-	//Sets when is frequent to have the disease, can be more than one season
+
+	/**
+	 * 
+	 * @param seasonality
+	 */
 	public void setSeasonality(String[] seasonality) {
 		this.seasonality = seasonality;
 	}
 
-	//Gets the medicines available for the disease
+
+	/**
+	 * 
+	 * @return
+	 */
 	public String[] getMedicines() {
-		return this.medicines;
+		return medicines;
 	}
 
-	//Sets the medicines available for the disease
+
+	/**
+	 * 
+	 * @param medicines
+	 */
 	public void setMedicines(String[] medicines) {
 		this.medicines = medicines;
 	}
 
-	//Returns if it is possible to confine people with the disease
-	public boolean getPossibleConfinement() {
-		return this.possibleConfinement;
+
+	/**
+	 * 
+	 * @return
+	 */
+	public boolean isPossibleConfinement() {
+		return possibleConfinement;
 	}
 
-	//Sets if it is possible to confine people with the disease
+
+	/**
+	 * 
+	 * @param possibleConfinement
+	 */
 	public void setPossibleConfinement(boolean possibleConfinement) {
 		this.possibleConfinement = possibleConfinement;
 	}
+
+	
 
 }

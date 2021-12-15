@@ -1,0 +1,5 @@
+Domain\Disease.class
+Presentation\UI_ShowStatistics.class
+Domain\Campaign.class
+Domain\Person.class
+Persistance\Broker.class
