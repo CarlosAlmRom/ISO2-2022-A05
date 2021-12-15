@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>ISO2LAB</groupId>
-  <artifactId>Iteration1</artifactId>
+  <artifactId>A05</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
-
-  <name>Iteration1</name>
-  <url>http://maven.apache.org</url>
+  
+  <name>A05</name>
+  <url>http://www.example.com</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <java.version>1.8</java.version>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
+ 
 
-  <dependencies>
+ <dependencies>
   <dependency>
 		<groupId>junit</groupId>
 		<artifactId>junit</artifactId>
@@ -163,4 +167,11 @@
 		</plugin>
 	</plugins>
 	</build>
+	<modules>
+  		<module>Iteration1</module>
+  		<module>Iteration2</module>
+  		<module>Iteration3</module>
+		<module>Iteration4</module>
+    		<module>Iteration5</module>
+  	</modules>
 </project>
