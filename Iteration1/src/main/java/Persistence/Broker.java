@@ -1,6 +1,12 @@
 package Persistence;
 import java.sql.*;
 
+/**
+ * Broker class allows the end-user to connect to an available desktop.
+ * @author: Carlos Almodóvar Román
+ * @version: 0.0.0
+ */
+
 public class Broker {
 	static String dbURL = " ";
     static String username = "root";
@@ -8,11 +14,18 @@ public class Broker {
     protected static Broker broker=null;
     protected static Connection BBDD;
 
+    /**
+     * @throws Exception
+     */
     public Broker() throws Exception {
         Class.forName(" ");
         BBDD=DriverManager.getConnection(dbURL, username, password);
     }
 
+    /**
+     * @return Broker
+     * @throws Exception
+     */
     public static Broker getBroker() throws Exception {
         if (broker==null) {
         	broker=new Broker();
@@ -20,6 +33,11 @@ public class Broker {
         return broker;
     }
 
+    /**
+     * @param SQL
+     * @return res as an int of the statement
+     * @throws Exception
+     */
     public static int insert(String SQL) throws Exception{
         PreparedStatement stmt = BBDD.prepareStatement(SQL);
         int res=stmt.executeUpdate();
@@ -27,6 +45,11 @@ public class Broker {
         return res;
     }
 
+    /**
+     * @param SQL
+     * @return res as an int of the statement
+     * @throws Exception
+     */
     public int update(String SQL)throws Exception{
         PreparedStatement stmt = BBDD.prepareStatement(SQL);
         int res=stmt.executeUpdate();
@@ -34,6 +57,11 @@ public class Broker {
         return res;
     }
 
+    /**
+     * @param SQL
+     * @return res as an int of the statement
+     * @throws Exception
+     */
     public static int delete(String SQL) throws Exception{
         PreparedStatement stmt = BBDD.prepareStatement(SQL);
         int res=stmt.executeUpdate();
