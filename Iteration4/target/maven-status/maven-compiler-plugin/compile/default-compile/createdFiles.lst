@@ -1,0 +1,7 @@
+Persistence\Broker.class
+Domain\Campaign.class
+Presentation\UI_SESCAM_Employee.class
+Domain\Person.class
+Domain\Schedule.class
+Domain\Disease.class
+Domain\State.class
