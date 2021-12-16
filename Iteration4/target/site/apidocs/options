@@ -1,0 +1,26 @@
+-classpath
+'C:/Users/gonza/.m2/repository/junit/junit/4.12/junit-4.12.jar;C:/Users/gonza/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar;C:/Users/gonza/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.1/junit-jupiter-engine-5.7.1.jar;C:/Users/gonza/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar;C:/Users/gonza/.m2/repository/org/junit/platform/junit-platform-engine/1.7.1/junit-platform-engine-1.7.1.jar;C:/Users/gonza/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar;C:/Users/gonza/.m2/repository/org/junit/platform/junit-platform-commons/1.7.1/junit-platform-commons-1.7.1.jar;C:/Users/gonza/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.1/junit-jupiter-api-5.7.1.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'1.8'
+-sourcepath
+'C:/Users/gonza/eclipse-workspace/A05/Iteration4/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2021. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/gonza/eclipse-workspace/A05/Iteration4/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Iteration4 0.0.1-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' 'C:/Users/gonza/eclipse-workspace/A05/Iteration4/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'Iteration4 0.0.1-SNAPSHOT API'

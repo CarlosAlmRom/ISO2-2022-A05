@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"Persistence","l":"Broker"},{"p":"Domain","l":"Campaign"},{"p":"Domain","l":"Disease"},{"p":"Domain","l":"Person"},{"p":"Domain","l":"Schedule"},{"p":"Domain","l":"State"},{"p":"Presentation","l":"UI_SESCAM_Employee"}];updateSearchResults();
