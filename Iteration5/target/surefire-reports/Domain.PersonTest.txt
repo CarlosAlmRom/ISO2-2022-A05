@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: Domain.PersonTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.004 s <<< FAILURE! - in Domain.PersonTest
+testGetState(Domain.PersonTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected:<Infected> but was:<null>
+	at Domain.PersonTest.testGetState(PersonTest.java:51)
+
+testGetSurname(Domain.PersonTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected:<Caballero Munioz-Reja> but was:<null>
+	at Domain.PersonTest.testGetSurname(PersonTest.java:44)
+
+testGetName(Domain.PersonTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected:<Ismael> but was:<null>
+	at Domain.PersonTest.testGetName(PersonTest.java:37)
+

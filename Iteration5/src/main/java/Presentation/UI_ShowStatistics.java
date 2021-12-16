@@ -5,7 +5,8 @@ import Domain.*;
 public class UI_ShowStatistics {
 
 	/**
-	 * 
+	 * @author Daniel Max Samson Samson and Antonio Mateo Frances
+	 * @version 0.0.0
 	 * @param State
 	 */
 	public void getNumPeoplePerState(Person State) {
@@ -28,7 +29,7 @@ public class UI_ShowStatistics {
 	 * @param DiseaseName
 	 * @param String
 	 */
-	public void getNumCampaingsPerDisease(Campaign Name, int DiseaseName, int String) {
+	public void getNumCampaingsPerDisease(String Name, int DiseaseName, int String) {
 		// TODO - implement UI_ShowStatistics.getNumCampaingsPerDisease
 		throw new UnsupportedOperationException();
 	}
@@ -37,7 +38,7 @@ public class UI_ShowStatistics {
 	 * 
 	 * @param DiseaseName
 	 */
-	public void getEvolutionDiseaseOverTime(Disease DiseaseName) {
+	public void getEvolutionDiseaseOverTime(String DiseaseName) {
 		// TODO - implement UI_ShowStatistics.getEvolutionDiseaseOverTime
 		throw new UnsupportedOperationException();
 	}

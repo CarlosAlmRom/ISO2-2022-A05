@@ -5,7 +5,8 @@ public class Broker {
 	protected Broker agent;
 
 	/**
-	 * 
+	 * @author Daniel Max Samson Samson and Antonio Mateo Frances
+	 * @version 0.0.0
 	 * @param SQL
 	 */
 	public Object[] readAll(String SQL) {

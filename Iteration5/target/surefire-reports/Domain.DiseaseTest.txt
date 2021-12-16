@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: Domain.DiseaseTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 5, Skipped: 0, Time elapsed: 0.005 s <<< FAILURE! - in Domain.DiseaseTest
+testGetMedicines(Domain.DiseaseTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at Domain.DiseaseTest.testGetMedicines(DiseaseTest.java:58)
+
+testIsPossibleConfinement(Domain.DiseaseTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: not yet implemented
+	at Domain.DiseaseTest.testIsPossibleConfinement(DiseaseTest.java:63)
+
+testGetSymptoms(Domain.DiseaseTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at Domain.DiseaseTest.testGetSymptoms(DiseaseTest.java:44)
+
+testSetPossibleConfinement(Domain.DiseaseTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.RuntimeException: not yet implemented
+	at Domain.DiseaseTest.testSetPossibleConfinement(DiseaseTest.java:68)
+
+testGetDiseaseName(Domain.DiseaseTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<Ismale> but was:<null>
+	at Domain.DiseaseTest.testGetDiseaseName(DiseaseTest.java:37)
+
+testGetSeasonality(Domain.DiseaseTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at Domain.DiseaseTest.testGetSeasonality(DiseaseTest.java:51)
+

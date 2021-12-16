@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Domain.CampaignTest" time="0.299" tests="5" errors="1" skipped="0" failures="4">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\OneDrive - Universidad de Castilla-La Mancha\Universidad\ISO II\Lab\ISo2\Pr05\target\test-classes;D:\OneDrive - Universidad de Castilla-La Mancha\Universidad\ISO II\Lab\ISo2\Pr05\target\classes;C:\Users\danim\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\danim\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Europe/Madrid"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.boot.library.path" value="C:\Users\danim\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.0.v20211012-1059\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\danim\AppData\Local\Temp\surefire3799529128326176806\surefirebooter17097167390263052928.jar C:\Users\danim\AppData\Local\Temp\surefire3799529128326176806 2021-12-15T19-36-35_579-jvmRun1 surefire4861581447482811649tmp surefire_011302702008416653903tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\OneDrive - Universidad de Castilla-La Mancha\Universidad\ISO II\Lab\ISo2\Pr05\target\test-classes;D:\OneDrive - Universidad de Castilla-La Mancha\Universidad\ISO II\Lab\ISo2\Pr05\target\classes;C:\Users\danim\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\danim\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\danim"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-09-14"/>
+    <property name="java.home" value="C:\Users\danim\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.0.v20211012-1059\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\OneDrive - Universidad de Castilla-La Mancha\Universidad\ISO II\Lab\ISo2\Pr05"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\danim\AppData\Local\Temp\surefire3799529128326176806\surefirebooter17097167390263052928.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17+35"/>
+    <property name="user.name" value="danim"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17+35"/>
+    <property name="localRepository" value="C:\Users\danim\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\danim\AppData\Local\Temp\"/>
+    <property name="java.version" value="17"/>
+    <property name="user.dir" value="D:\OneDrive - Universidad de Castilla-La Mancha\Universidad\ISO II\Lab\ISo2\Pr05"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\danim\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.0.v20211012-1059\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/danim/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.0.v20211012-1059/jre/bin/server;C:/Users/danim/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.0.v20211012-1059/jre/bin;C:\Program Files (x86)\apache-maven-3.8.4\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\dotnet\;C:\Users\danim\AppData\Local\Microsoft\WindowsApps;C:\Users\danim\AppData\Local\Programs\Microsoft VS Code\bin;D:\Programas Universitarios\Microsoft VS Code\bin;C:\Users\danim\.dotnet\tools;C:\Users\danim\AppData\Local\GitHubDesktop\bin;C:\Windows\System32;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17+35"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testGetAssociatedDisease" classname="Domain.CampaignTest" time="0.035">
+    <failure message="expected:&lt;1&gt; but was:&lt;0&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
+	at Domain.CampaignTest.testGetAssociatedDisease(CampaignTest.java:64)
+]]></failure>
+    <system-out><![CDATA[@Before -> How many times do i appear?
+@After -> How many times do i appear?
+]]></system-out>
+  </testcase>
+  <testcase name="testGetCost" classname="Domain.CampaignTest" time="0">
+    <failure message="expected:&lt;10000&gt; but was:&lt;0&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<10000> but was:<0>
+	at Domain.CampaignTest.testGetCost(CampaignTest.java:42)
+]]></failure>
+    <system-out><![CDATA[@Before -> How many times do i appear?
+@After -> How many times do i appear?
+]]></system-out>
+  </testcase>
+  <testcase name="testGetDate" classname="Domain.CampaignTest" time="0.001">
+    <failure message="expected:&lt;21/09/2019&gt; but was:&lt;null&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<21/09/2019> but was:<null>
+	at Domain.CampaignTest.testGetDate(CampaignTest.java:49)
+]]></failure>
+    <system-out><![CDATA[@Before -> How many times do i appear?
+@After -> How many times do i appear?
+]]></system-out>
+  </testcase>
+  <testcase name="testGetName" classname="Domain.CampaignTest" time="0.004">
+    <error type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException
+	at Domain.CampaignTest.testGetName(CampaignTest.java:35)
+</error>
+    <system-out><![CDATA[@Before -> How many times do i appear?
+@After -> How many times do i appear?
+]]></system-out>
+  </testcase>
+  <testcase name="testGetEffectiveness" classname="Domain.CampaignTest" time="0">
+    <failure message="expected:&lt;99&gt; but was:&lt;0&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<99> but was:<0>
+	at Domain.CampaignTest.testGetEffectiveness(CampaignTest.java:56)
+]]></failure>
+    <system-out><![CDATA[@Before -> How many times do i appear?
+@After -> How many times do i appear?
+]]></system-out>
+  </testcase>
+</testsuite>

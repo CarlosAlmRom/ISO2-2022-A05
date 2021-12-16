@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: Domain.CampaignTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 4, Errors: 1, Skipped: 0, Time elapsed: 0.299 s <<< FAILURE! - in Domain.CampaignTest
+testGetAssociatedDisease(Domain.CampaignTest)  Time elapsed: 0.035 s  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<0>
+	at Domain.CampaignTest.testGetAssociatedDisease(CampaignTest.java:64)
+
+testGetCost(Domain.CampaignTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<10000> but was:<0>
+	at Domain.CampaignTest.testGetCost(CampaignTest.java:42)
+
+testGetDate(Domain.CampaignTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected:<21/09/2019> but was:<null>
+	at Domain.CampaignTest.testGetDate(CampaignTest.java:49)
+
+testGetName(Domain.CampaignTest)  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.UnsupportedOperationException
+	at Domain.CampaignTest.testGetName(CampaignTest.java:35)
+
+testGetEffectiveness(Domain.CampaignTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<99> but was:<0>
+	at Domain.CampaignTest.testGetEffectiveness(CampaignTest.java:56)
+

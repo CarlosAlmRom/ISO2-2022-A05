@@ -1,16 +1,16 @@
 package Domain;
-
+/**
+ * @author Daniel Max Samson Samson and Antonio Mateo Frances
+ * @version 0.0.0
+ *
+ */
 public class Campaign {
 
 	private String Name;
 	private int cost;
 	private String date;
 	private int effectiveness;
-	private Disease associatedDisease;
-
-	public Campaign() {
-        //TODO - implement constructor
-	}
+	private int associatedDisease;
 
 	public String getName() {
 		// TODO - implement Campaign.getName
@@ -62,36 +62,41 @@ public class Campaign {
 		this.effectiveness = effectiveness;
 	}
 
-	public int insertCampaignInDB(Campaign c) {
-		return 1;
+	public int insertCampaignInDB() {
+		// TODO - implement Campaign.insertCampaignInDB
+		throw new UnsupportedOperationException();
 	}
 
-	public int updateCampaignInDB(Campaign c) {
-		return 1;
+	public int updateCampaignInDB() {
+		// TODO - implement Campaign.updateCampaignInDB
+		throw new UnsupportedOperationException();
 	}
 
-	public int deleteCampaignInDB(Campaign c) {
-		return 1;
+	public int deleteCampaignInDB() {
+		// TODO - implement Campaign.deleteCampaignInDB
+		throw new UnsupportedOperationException();
 	}
 
 	public Campaign[] readAllCampaignsInDB() {
-		return null;
+		// TODO - implement Campaign.readAllCampaignsInDB
+		throw new UnsupportedOperationException();
 	}
 
 	public Campaign readCampaignsInDB() {
-		return null;
+		// TODO - implement Campaign.readCampaignsInDB
+		throw new UnsupportedOperationException();
 	}
 
-	public Disease getAssociatedDisease() {
+	public int getAssociatedDisease() {
 		return this.associatedDisease;
-	}
+		}
 
 	/**
 	 * 
 	 * @param associatedDisease
 	 */
-	public Disease setAssociatedDisease(Disease associatedDisease) {
-		return this.associatedDisease = associatedDisease;
+	public void setAssociatedDisease(int associatedDisease) {
+		this.associatedDisease = associatedDisease;
 	}
 
 }
