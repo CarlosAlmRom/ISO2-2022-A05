@@ -1,7 +1,7 @@
 package ISO2LAB.A05;
 
 /**
- * Hello world!
+ * Hello world! 
  *
  */
 public class App 
